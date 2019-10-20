@@ -636,12 +636,12 @@
 		},
 		{
 			"name": "football",
-			"icon": "football.svg",
+			"icon": "football.png",
 			"sn": 3
 		},
 		{
 			"name": "cricket",
-			"icon": "cricket.svg",
+			"icon": "cricket.png",
 			"sn": 4
 		},
 		{
@@ -656,7 +656,7 @@
 		},
 		{
 			"name": "painting",
-			"icon": "paint.svg",
+			"icon": "paint.png",
 			"sn": 7
 		},
 		{
@@ -671,7 +671,7 @@
 		},
 		{
 			"name": "running",
-			"icon": "running.svg",
+			"icon": "running.png",
 			"sn": 10
 		}
 
