@@ -199,10 +199,31 @@ swal({
 
 
 function loadMoghysSays() {
-	const moghyaSaysInnerHtml = `<div class="col m6">`;
-	for(i=0;i<4;i++){
-		moghyaSaysInnerHtml+='<object type="image/svg+xml" data="img/'+i + '.jpg'+'"> </object>'
-	}
+	const moghyaSaysInnerHtml = `<div class="col m6">
+			<h6>some more pictures of me:</h6>	
+
+	</div>
+	<div class="col m6">
+		<h6>Warm Gratitudes</h6>
+		<div class="row">
+			<div class="col m3 s3"><a href="https:https://pages.github.com/">Github Pages</a></div>
+			<div class="col m3 s3"><a href="https://stackoverflow.com/">Stack Overflow</a></div>
+			<div class="col m3 s3"><a href="https://jquery.com/">jQuery</a></div>
+			<div class="col m3 s3"><a href="http://materializecss.com/">Materialize</a></div>
+		</div>
+		<div class="row">
+			<div class="col m3 s3"><a href="https://fonts.google.com/">Google Fonts</a></div>	
+			<div class="col m3 s3"><a href="http://konpa.github.io/devicon/">Devicons</a></div>
+			<div class="col m3 s3"><a href="http://www.flaticon.com/">Flaticons</a></div>
+			<div class="col m3 s3"><a href="https://simpleicons.org/">SimpleIcons</a></div>				
+		</div>
+		<div class="row">
+			<div class="col m3 s3"><a href="http://noraesae.github.io/perfect-scrollbar/">Perfect Scrollbar</a></div>
+			<div class="col m3 s3"><a href="http://www.mattboldt.com/demos/typed-js/">TypedJs</a></div>					
+			<div class="col m3 s3"><a href="https://daneden.github.io/animate.css/">Animate.CSS</a></div>
+			<div class="col m3 s3"><a href="http://t4t5.github.io/sweetalert/">Sweetalert</a></div>
+		</div>
+	</div>`;
 	$('#moghyaSays').html(moghyaSaysInnerHtml);
 }
 
