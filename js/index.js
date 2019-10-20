@@ -150,7 +150,7 @@ var profile;
 swal({
 		title: "Hello World!!!",
 		text: "Hello people, you have landed upon small webspace of tamil. I hope you're doing well."
-		//buttons: ["Nope, I'm just looking around.", "Yes, I'm hiring :)"]
+		// buttons: ["Nope, I'm just looking around.", "Yes, I'm hiring :)"]
 		// buttons: {
 		// 	cancel: {
 		// 	  text: "Nope.",
@@ -200,8 +200,14 @@ swal({
 
 function loadMoghysSays() {
 	const moghyaSaysInnerHtml = `<div class="col m6">
-			<h6>some more pictures of me:</h6>	
-
+		<h6>Recipe for this website:</h6>	
+		<div class="row">
+			Would you like to have your own portfolio in this template ? It"s pretty easy, <a href="https://github.com/moghya">moghya</a> covered it up for everyone out their. 
+			All the content on this website is dynamically loaded from JSON data.
+			Fork this <a href="https://github.com/moghya/moghya.github.io/">repo</a> on github and edit <a href="https://github.com/moghya/moghya.github.io/blob/master/js/profile.json">js/profile.json</a> for adding your data.
+			<a href="https://medium.com/howcatcancode/developer-profile-template-2017-219f43147efe">Read more</a><br>
+			If you like this website, consider giving a star to its repo <a href="https://github.com/moghya/moghya.github.io/">here</a>.
+		</div>
 	</div>
 	<div class="col m6">
 		<h6>Warm Gratitudes</h6>
