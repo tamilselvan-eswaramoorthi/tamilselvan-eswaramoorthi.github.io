@@ -1,25 +1,25 @@
 {
 	"personalInfo": {
 		"myimg": "profilePic.jpg",
-		"fname": "Tamilselvan",
-		"mname": "",
-		"lname": "Eswaramoorthy",
-		"nick": "tamil",
+		"fname": "Shubham",
+		"mname": "Parashram",
+		"lname": "Sawant",
+		"nick": "moghya",
 		"address": {
-			"list": ["5, pallakattu pudur, sivanmalai, kangayam, Tiruppur, Tamilnadu, India 638701",
+			"list": ["Gupta Layout, Mahakali road, Washim, District-Washim, Maharashtra, India 444505 ",
 				"'OM' Jaihind colony, Vishrambag, Sangli District-Sangli, Maharashtra, India 416415"
 			]
 		},
-		"email": "tamilselvan.arun@gmail.com",
-		"mob": "+91 8940 808 610"
+		"email": "sawantshubham571@gmail.com",
+		"mob": "+91 0000 000 000"
 	},
 	"educations": [{
 
-			"periodStart": "August 2015",
-			"periodEnd": "March 2019",
-			"course": "B.E in Electronics and Instrumentation Engineering",
-			"score": "8.48 CGPA",
-			"inst": "Bannari amman Institute of Technology",
+			"periodStart": "July 2014",
+			"periodEnd": "May 2018",
+			"course": "B.Tech Information Technology",
+			"score": "7.59 CGPA",
+			"inst": "Walchand College of Engineering, Sangli",
 			"board": "Shivaji University",
 			"courses": [{
 					"courseCode": "3IT202",
@@ -264,14 +264,14 @@
 		},
 		{
 
-			"periodStart": "April 2014",
-			"periodEnd": "May 2015",
-			"course": "Higher Secondary Education",
-			"score": "92.0%",
-			"inst": "Jaycees Matriculation Higher Secondary School",
-			"board": "Tamilnadu State Board",
+			"periodStart": "April 2013",
+			"periodEnd": "May 2014",
+			"course": "All India Senior School Examination",
+			"score": "89.4%",
+			"inst": "Jawahar Navodaya Vidyalaya,Washim",
+			"board": "CBSE Chennai",
 			"courses": [{
-					"courseCode": "1",
+					"courseCode": "041",
 					"courseName": "Mathemactics",
 					"courseScore": "86/100",
 					"sn": 1
@@ -298,12 +298,12 @@
 		},
 		{
 
-			"periodStart": "April 2012",
-			"periodEnd": "May 2013",
+			"periodStart": "April 2011",
+			"periodEnd": "May 2012",
 			"course": "All India Secondary School Examination",
-			"score": "97.50 %",
-			"inst": "Jaycees Matriculation Higher Secondary School",
-			"board": "Tamilnadu State Board",
+			"score": "10.00 CGPA",
+			"inst": "Jawahar Navodaya Vidyalaya,Washim",
+			"board": "CBSE Chennai",
 			"courses": [{
 					"courseCode": "041",
 					"courseName": "Mathemactics",
@@ -402,48 +402,76 @@
 		}
 	],
 	"experince": [
-		
+		{
+			"sn": 6,
+			"link": "",
+			"workPosition": "Scout Troop Leader",
+			"periodStart": "April 2010",
+			"periodEnd": "May 2012",
+			"organisation": "JNV,Washim",
+			"experience": "It was nice to be a part of Scouting.Arranged camps,hikes and awareness rallies.",
+			"type": "volunteer"
+		},
+		{
+			"sn": 5,
+			"link": "http://wcepace.in/",
+			"workPosition": "Asst. Program Director in Events",
+			"periodStart": "April 2015",
+			"periodEnd": "March 2016",
+			"organisation": "Personality Advancement Circle of Engineers.",
+			"experience": "Learnt how to organize professional events and actvites, how to manage resources and make most out of everything.",
+			"type": "volunteer"
+		},
+		{
+			"sn": 4,
+			"link": "http://wcepace.in/",
+			"workPosition": "Joint. Skills Developer",
+			"periodStart": "April 2016",
+			"periodEnd": "January 2017",
+			"organisation": "Personality Advancement Circle of Engineers.",
+			"experience": "Good to arrange Meet ups for professional skill development of fellow PACErs.",
+			"type": "volunteer"
+		},
 		{
 			"sn": 3,
-			"link": "https://www.bosch-india-software.com/",
-			"workPosition": "Data Science Intern",
-			"periodStart": "Dec 2017",
-			"periodEnd": "Feb 2018",
-			"organisation": "Robert Bosch Engineering and Business Solutions",
-			"experience": "Development of image processing algorithms of the retinal fundus camera for automated detection of diabetic retinopathy and Hypertensive Retinopathy and Development of automated labelling tools for image segmentation",
-			"type": "Internship"
+			"link": "http://wcepace.in/",
+			"workPosition": "Cheif. Skills Developer",
+			"periodStart": "January 2017",
+			"periodEnd": "December 2017",
+			"organisation": "Personality Advancement Circle of Engineers.",
+			"experience": "Good to arrange Meet ups for professional skill development of fellow PACErs.",
+			"type": "volunteer"
 		},
 		{
 			"sn": 2,
-			"link": "http://htic.iitm.ac.in/",
-			"workPosition": "Project Intern",
-			"periodStart": "Jan 2019",
-			"periodEnd": "Jun 2019",
-			"organisation": "Healthcare Technology Innovation Centre, IIT Madras",
-			"experience": "Development of algorithms for body mapping to facilitate inverse kinematics for sports applications. I had also worked for Development of a software to identify certain parameters in tennis serves using deep learning and image processing. I had worked for a team which developed an computer vision app that assisted elderly people to do physiotherapy exercises without a help of a physiotherapist.",
-			"type": "Internship"
+			"link": "http://pitchteq.com/",
+			"workPosition": "PHP Developer",
+			"periodStart": "July 2016",
+			"periodEnd": "Present",
+			"organisation": "PitchTeQ ",
+			"experience": "A group of college students established a web solutions startup. Worked on an e-commerce project.",
+			"type": "work"
 		},
 		{
 			"sn": 1,
-			"link": "http://artivatic.ai/",
-			"workPosition": "Computer Vision Developer",
-			"periodStart": "Jun 2019",
-			"periodEnd": "Oct",
-			"organisation": "Artivatic.ai",
-			"experience": "developed a Django based framework for KYC documents details extraction for insurance agencies. Involved in developing algorithms for skew correction and ROI separation on KYC and Financial Documents. Based on the details which are extracted from the customers, developed a Machine learning model to predict the likeliness of insurance claims.",
-			"type": "full-time"
+			"link": "http://www.praxisinfotech.com/",
+			"workPosition": "Web Development Intern",
+			"periodStart": "June 2017",
+			"periodEnd": "July 2017",
+			"organisation": "Praxis Infotech ",
+			"experience": "Developed a PHP, MySQL web application. Added a layer on top of Google maps for places and events.",
+			"type": "work"
 		},
 		{
 			"sn": 0,
-			"link": "http://www.hubino.com/",
-			"workPosition": "Computer Vision Developer",
-			"periodStart": "Oct 2019",
+			"link": "https://www.media.net/",
+			"workPosition": "Application Engineer",
+			"periodStart": "July 2018",
 			"periodEnd": "Present",
-			"organisation": "Hubino Private Limited",
-			"experience": "Developing computer vision based fault detection in automobile cameras and classifying varies mistakes done by the driver while driving",
-			"type": "full-time"
-		},
-
+			"organisation": "Media.Net",
+			"experience": "<ul><li>Involved in designing, developing features and parts of an App Distribution platform.</li><li>Majorly my work involves:</li><ul><li>– Designing, writing and consuming HTTP-REST APIs.</li><li>– Setting up job queues for multiple monitoring tasks.</li><li>– Writing template code for full-stack Web and Desktop applications.</li><li>– Automating and setting up application build processes.</li><li>– Extensive research and POC creation of features,solutions for novel business requirements.</li><li>– Identifying bottlenecks across system and optimize database queries, page load time, serving time, build time.</li></ul><li>Developed node-js, python back-end applications for automating and monitoring application build processes.</li><li>Developed node-js module for restructuring and renaming directory tree, handled resolution of interlinked file-paths in files.</li><li>Developed macOs desktop application(A Safari App Extension) using Swift for search monetization with app installer and app auto update feature from scratch</li></ul>",
+			"type": "work"
+		}
 	],
 	"projects": [
 		{
