@@ -13,13 +13,13 @@
 		"email": "tamilselvan.arun@gmail.com",
 		"mob": "+91 8940 808 610"
 	},
-	"educations": [{
+"educations": [{
 
-			"periodStart": "July 2014",
-			"periodEnd": "May 2018",
-			"course": "B.Tech Information Technology",
-			"score": "7.59 CGPA",
-			"inst": "Walchand College of Engineering, Sangli",
+			"periodStart": "August 2015",
+			"periodEnd": "March 2019",
+			"course": "B.E in Electronics and Instrumentation Engineering",
+			"score": "8.48 CGPA",
+			"inst": "Bannari amman Institute of Technology",
 			"board": "Shivaji University",
 			"courses": [{
 					"courseCode": "3IT202",
@@ -264,14 +264,14 @@
 		},
 		{
 
-			"periodStart": "April 2013",
-			"periodEnd": "May 2014",
-			"course": "All India Senior School Examination",
-			"score": "89.4%",
-			"inst": "Jawahar Navodaya Vidyalaya,Washim",
-			"board": "CBSE Chennai",
+			"periodStart": "April 2014",
+			"periodEnd": "May 2015",
+			"course": "Higher Secondary Education",
+			"score": "92.0%",
+			"inst": "Jaycees Matriculation Higher Secondary School",
+			"board": "Tamilnadu State Board",
 			"courses": [{
-					"courseCode": "041",
+					"courseCode": "1",
 					"courseName": "Mathemactics",
 					"courseScore": "86/100",
 					"sn": 1
@@ -298,12 +298,12 @@
 		},
 		{
 
-			"periodStart": "April 2011",
-			"periodEnd": "May 2012",
+			"periodStart": "April 2012",
+			"periodEnd": "May 2013",
 			"course": "All India Secondary School Examination",
-			"score": "10.00 CGPA",
-			"inst": "Jawahar Navodaya Vidyalaya,Washim",
-			"board": "CBSE Chennai",
+			"score": "97.50 %",
+			"inst": "Jaycees Matriculation Higher Secondary School",
+			"board": "Tamilnadu State Board",
 			"courses": [{
 					"courseCode": "041",
 					"courseName": "Mathemactics",
