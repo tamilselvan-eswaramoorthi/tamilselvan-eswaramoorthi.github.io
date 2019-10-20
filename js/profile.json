@@ -620,31 +620,31 @@
 		{
 			"name": "Github",
 			"icon": "github.svg",
-			"link": "https://github.com/moghya",
+			"link": "https://github.com/tamilselvan-eswaramoorthi",
 			"sn": 2
 		},
 		{
 			"name": "LinkedIn",
 			"icon": "linkedin.svg",
-			"link": "https://www.linkedin.com/in/shubham-sawant-67074a86/",
+			"link": "https://www.linkedin.com/in/tamilselvanmoorthy/",
 			"sn": 1
 		},
 		{
 			"name": "Medium",
 			"icon": "medium.svg",
-			"link": "https://medium.com/howcatcancode",
+			"link": "https://medium.com/tamilselvan_moorthy",
 			"sn": 5
 		},
 		{
-			"name": "StackOverflow",
+			"name": "researchgate",
 			"icon": "stack-overflow.png",
-			"link": "https://stackoverflow.com/users/5186709/moghya",
+			"link": "https://www.researchgate.net/profile/Tamilselvan_Eswaramoorthy",
 			"sn": 3
 		},
 		{
 			"name": "Twitter",
 			"icon": "twitter.svg",
-			"link": "https://twitter.com/moghya",
+			"link": "https://twitter.com/tamilselvan_eswaramoorthy",
 			"sn": 4
 		}
 	],
@@ -660,28 +660,28 @@
 			"sn": 2
 		},
 		{
-			"name": "Armed Forces",
-			"icon": "soldier.svg",
+			"name": "football",
+			"icon": "football.svg",
 			"sn": 3
 		},
 		{
-			"name": "Reading",
-			"icon": "book.svg",
+			"name": "cricket",
+			"icon": "cricket.svg",
 			"sn": 4
 		},
 		{
-			"name": "Singing",
-			"icon": "singer.svg",
+			"name": "Reading books",
+			"icon": "book.svg",
 			"sn": 5
 		},
 		{
-			"name": "Watermelon",
-			"icon": "watermelon.svg",
+			"name": "chicken",
+			"icon": "chicken.svg",
 			"sn": 6
 		},
 		{
-			"name": "Chicken",
-			"icon": "chicken.svg",
+			"name": "painting",
+			"icon": "paint.svg",
 			"sn": 7
 		},
 		{
@@ -695,8 +695,8 @@
 			"sn": 9
 		},
 		{
-			"name": "Camping",
-			"icon": "tent.svg",
+			"name": "running",
+			"icon": "running.svg",
 			"sn": 10
 		}
 
