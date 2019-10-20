@@ -20,7 +20,7 @@
 			"course": "B.E in Electronics and Instrumentation Engineering",
 			"score": "8.48 CGPA",
 			"inst": "Bannari amman Institute of Technology",
-			"board": "Shivaji University",
+			"board": "anna University",
 			"courses": [{
 					"courseCode": "3IT202",
 					"courseName": "Data Structures",
@@ -300,7 +300,7 @@
 
 			"periodStart": "April 2012",
 			"periodEnd": "May 2013",
-			"course": "All India Secondary School Examination",
+			"course": "Secondary School Education",
 			"score": "97.50 %",
 			"inst": "Jaycees Matriculation Higher Secondary School",
 			"board": "Tamilnadu State Board",
@@ -615,7 +615,7 @@
 			"link": "https://github.com/moghya/toGithub"
 		}
 	],
-	"summary": "<p>Hello, I'm a Computer science enthusiast and B.Tech Information Technology graduate having a year of experience as Software Development Engineer in Internet/Ad-Tech industry.</p><p>I'm passionate about programming and delivering, clean, test-covered, well-designed and scalable code. I seek to learn and try to apply all of it in a way that makes life easier. I always try to design, develop and deliver technology solutions to problems around me.</p><p>I have strong hold on computer science fundamentals including Algorithms, Data structures, OOPs, Design Patterns,  Operating Systems, Database Systems and Computer Networking.</p>",
+	"summary": "<p>Hello, I'm a Computer science enthusiast and B.E Electronics and Instrumentation Engineering graduate having a year of experience as Software Development Engineer in AI based industries.</p><p>I'm passionate about programming and delivering, clean, test-covered, well-designed and scalable code. I seek to learn and try to apply all of it in a way that makes life easier. I always try to design, develop and deliver technology solutions to problems around me.</p><p>I have strong hold on computer science fundamentals including Algorithms, Data structures, Operating Systems, Git and Computer Networking.</p>",
 	"profileLinks": [
 		{
 			"name": "Github",
@@ -708,5 +708,5 @@
 		"If you cannot be a pencil to write someone's happiness, then try to be an erases to erase someone's sorrows.",
 		"Tabs are better than spaces."
 	],
-	"helloText": "<p>Dear Visitor, Thank you for visiting my webspace.</p> <p>I'm working as Software Development Engineer at <a href='http://media.net'>Media.Net</a>. I completed  B.Tech Information Technology at <a href='http://walchandsangli.ac.in'>Walchand College of Engineering Sangli</a> and my schooling from <a href='http://jnvwashim.gov.in'>Jawahar Navodaya Vidyalaya, Washim</a>.</p> <p>I do Web application development, Machine Learning and Computer Algorithms. I overwhelmingly like C++, Python and Javascript :)</p> <p>How can I help you?</br>I can design, develop and deliver technological solutions to your problems.</p><p>Do we have something in common? If yes, let's have a talk about it and grow together.</p> <p> We don't have anything in common?</br>That's fine,please introduce me something that I'm missing.</p>"
+	"helloText": "<p>Dear Visitor, Thank you for visiting my webspace.</p> <p>I'm working as Software Development Engineer at <a href='http://hubino.com'>Hubino</a>. I completed  B.E Electronics and Instrumentation Engineering at <a href='http://bitsathy.ac.in'> Bannari amman Institute of Technology, Erode </a> and my schooling from <a href='https://www.facebook.com/jayceesschoolkgm/'>Jaycees school, Kangayam</a>.</p> <p>I do machine learning, deep learning and AI. I overwhelmingly like Python :)</p> <p>How can I help you?</br>I can design, develop and deliver technological solutions to your problems.</p><p>Do we have something in common? If yes, let's have a talk about it and grow together.</p> <p> We don't have anything in common?</br>That's fine,please introduce me something that I'm missing.</p>"
 }
