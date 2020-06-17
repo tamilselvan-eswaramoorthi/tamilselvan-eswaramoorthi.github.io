@@ -32,7 +32,10 @@ body {
   text-transform: uppercase;
 }
 
-h1,
+h1{
+  font-weight: 900;
+}
+
 h2,
 h3,
 h4,
