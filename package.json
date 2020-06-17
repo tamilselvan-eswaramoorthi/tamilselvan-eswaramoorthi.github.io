@@ -1,11 +1,11 @@
 {
-    "title": "Stylish Portfolio",
-    "name": "startbootstrap-stylish-portfolio",
+    "title": "Portfolio",
+    "name": "portfolio",
     "version": "5.0.7",
     "scripts": {
         "start": "node_modules/.bin/gulp watch"
     },
-    "description": "A stylish portfolio HTML template built with Bootstrap",
+    "description": "Portfolio",
     "keywords": [
         "css",
         "sass",
@@ -14,19 +14,19 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/stylish-portfolio",
+    "homepage": "https://github.com/tamilselvan-eswaramoorthi",
     "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/issues",
-        "email": "feedback@startbootstrap.com"
+        "url": "https://github.com/tamilselvan-eswaramoorthi/tamilselvan-eswaramoorthi.github.io/issues",
+        "email": "eswaramoorthi.tamilselvan@gmail.com"
     },
     "license": "MIT",
-    "author": "Start Bootstrap",
+    "author": "Tamilselvan",
     "contributors": [
-        "David Miller (http://davidmiller.io/)"
+"Tamilselvan"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio.git"
+        "url": "https://github.com/tamilselvan-eswaramoorthi/tamilselvan-eswaramoorthi.github.io.git"
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.10.2",
