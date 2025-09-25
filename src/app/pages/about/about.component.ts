@@ -15,22 +15,22 @@ export class AboutComponent {
     {
       icon: 'assets/images/icon-photo.svg',
       title: 'Computer Vision',
-      description: 'I excel at unlocking the world through the camera lens'
+      description: 'Building AI solutions with computer vision for real-world applications, from damage detection to quality assurance systems.'
     },
     {
       icon: 'assets/images/icon-dev.svg',
-      title: 'Natural Language Processing',
-      description: 'I\'m skilled at bridging the gap between human language and machine understanding'
+      title: 'Generative AI & LLMs',
+      description: 'Developing agentic AI solutions and leveraging large language models for data extraction and intelligent automation.'
     },
     {
       icon: 'assets/images/icon-app.svg',
-      title: 'API Development',
-      description: 'I build robust and scalable web applications with Django, Flask, and FastAPI.'
+      title: 'MLOps & Platform Development',
+      description: 'Designing self-service ML platforms and end-to-end AI pipelines with CI/CD integration using Azure and AWS.'
     },
     {
-      icon: 'assets/images/icon-dev.svg',
-      title: 'Data Science',
-      description: 'I turn data into actionable insights with advanced analytics and machine learning.'
+      icon: 'assets/images/icon-design.svg',
+      title: 'Data Science & Analytics',
+      description: 'Turning complex data into actionable insights through machine learning, deep learning, and predictive modeling.'
     }
   ];
 }

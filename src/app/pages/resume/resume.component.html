@@ -36,4 +36,35 @@
       </li>
     </ol>
   </section>
+
+  <section class="skill">
+    <h3 class="h3 skills-title">Core Competencies</h3>
+    
+    <ul class="skills-list content-card">
+      <li class="skills-item" *ngFor="let skill of skills">
+        <div class="title-wrapper">
+          <h5 class="h5">{{skill.category}}</h5>
+        </div>
+        <div class="skill-tags">
+          <span class="skill-tag" *ngFor="let item of skill.items">{{item}}</span>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <section class="timeline">
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="trophy-outline"></ion-icon>
+      </div>
+      <h3 class="h3">Achievements & Recognition</h3>
+    </div>
+
+    <ol class="timeline-list">
+      <li class="timeline-item" *ngFor="let achievement of achievements">
+        <h4 class="h4 timeline-item-title">{{achievement.title}}</h4>
+        <p class="timeline-text">{{achievement.description}}</p>
+      </li>
+    </ol>
+  </section>
 </article>

@@ -13,40 +13,40 @@ import { Project } from '../../interfaces/portfolio.interface';
 export class PortfolioComponent {
   projects: Project[] = [
     {
-      title: 'DocGen',
-      category: 'Document Dataset Generator',
+      title: 'Pixel - Image Tagging Platform',
+      category: 'Computer Vision Platform',
       image: 'assets/images/project-1.jpg',
-      link: 'https://github.com/tamilselvan-eswaramoorthi/idp_data_generator'
+      link: 'https://github.com/tamilselvan-eswaramoorthi'
     },
     {
-      title: 'AquaDoc',
-      category: 'End to End IDP Solution',
+      title: 'Yoshi - AI Project Management',
+      category: 'Generative AI Platform',
       image: 'assets/images/project-2.jpg',
-      link: 'https://github.com/tamilselvan-eswaramoorthi/idp'
+      link: 'https://github.com/tamilselvan-eswaramoorthi'
     },
     {
-      title: 'Robotic House Cleaner',
-      category: 'Obstacle Avoidance for Vacuum Robot',
+      title: 'Agentic AI for Digital Twin',
+      category: 'Manufacturing AI Solution',
       image: 'assets/images/project-3.jpg',
-      link: 'https://github.com/tamilselvan-eswaramoorthi/house_cleaning_robot'
+      link: 'https://github.com/tamilselvan-eswaramoorthi'
     },
     {
-      title: 'Aerial Mapper',
-      category: 'Maps area through drones',
+      title: 'EHS Safety System',
+      category: 'Construction Safety AI',
       image: 'assets/images/project-4.webp',
-      link: 'https://github.com/tamilselvan-eswaramoorthi/shape-detection-for-drone-images'
+      link: 'https://github.com/tamilselvan-eswaramoorthi'
     },
     {
-      title: 'Traffic Control',
-      category: 'Adaptive Traffic Light Control',
+      title: 'AVIS Damage Detection',
+      category: 'Real-time Computer Vision',
       image: 'assets/images/project-5.jpeg',
-      link: 'https://github.com/tamilselvan-eswaramoorthi/adaptive-traffic-light-control'
+      link: 'https://github.com/tamilselvan-eswaramoorthi'
     },
     {
-      title: 'People Counter',
-      category: 'Footfall counter and analytics',
+      title: 'Jal Jeevan Water Quality',
+      category: 'IoT & Predictive Analytics',
       image: 'assets/images/project-6.png',
-      link: 'https://github.com/tamilselvan-eswaramoorthi/person-counter'
+      link: 'https://github.com/tamilselvan-eswaramoorthi'
     }
   ];
 }

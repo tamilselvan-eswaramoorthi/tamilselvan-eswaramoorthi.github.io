@@ -34,3 +34,13 @@ export interface ContactForm {
   email: string;
   message: string;
 }
+
+export interface Skill {
+  category: string;
+  items: string[];
+}
+
+export interface Achievement {
+  title: string;
+  description: string;
+}
