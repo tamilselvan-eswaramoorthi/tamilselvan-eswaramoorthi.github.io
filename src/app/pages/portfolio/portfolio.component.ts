@@ -42,7 +42,7 @@ export class PortfolioComponent {
     {
       title: 'Diabetic Retinopathy Detection',
       category: 'Medical AI - Bosch Labs',
-      image: 'assets/images/project-4.webp',
+      image: 'assets/images/dr.webp',
       link: 'https://github.com/tamilselvan-eswaramoorthi'
     },
     {
@@ -54,7 +54,7 @@ export class PortfolioComponent {
     {
       title: 'Vehicle Damage Detection',
       category: 'Vehicle Inspection - 60% Cost Reduction',
-      image: 'assets/images/damage.png',
+      image: 'assets/images/damage.jpg',
       link: 'https://github.com/tamilselvan-eswaramoorthi'
     },
     {
@@ -88,19 +88,19 @@ export class PortfolioComponent {
     {
       title: 'Robotic House Cleaner',
       category: 'Obstacle Avoidance for Vacuum Robot',
-      image: 'assets/images/project-1.jpg',
+      image: 'assets/images/project-3.jpg',
       link: 'https://github.com/tamilselvan-eswaramoorthi/house_cleaning_robot'
     },
     {
       title: 'Aerial Mapper',
       category: 'Drone-based Area Mapping',
-      image: 'assets/images/project-2.jpg',
+      image: 'assets/images/project-4.webp',
       link: 'https://github.com/tamilselvan-eswaramoorthi/shape-detection-for-drone-images'
     },
     {
       title: 'Traffic Control System',
       category: 'Adaptive Traffic Light Control',
-      image: 'assets/images/project-3.jpg',
+      image: 'assets/images/traffic.webp',
       link: 'https://github.com/tamilselvan-eswaramoorthi/adaptive-traffic-light-control'
     },
     
