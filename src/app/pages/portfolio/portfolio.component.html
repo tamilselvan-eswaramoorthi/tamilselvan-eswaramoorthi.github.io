@@ -1,0 +1,35 @@
+<article class="portfolio active" data-page="portfolio">
+  <header>
+    <h2 class="h2 article-title">Works</h2>
+  </header>
+
+  <section class="projects">
+    <ul class="filter-list">
+      <!-- Filter functionality can be added later -->
+    </ul>
+
+    <div class="filter-select-box">
+      <button class="filter-select" data-select>
+        <div class="select-icon">
+          <ion-icon name="chevron-down"></ion-icon>
+        </div>
+      </button>
+    </div>
+
+    <ul class="project-list">
+      <li class="project-item active" data-filter-item *ngFor="let project of projects">
+        <a [href]="project.link" target="_blank" rel="noopener">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img [src]="project.image" [alt]="project.title" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">{{project.title}}</h3>
+          <p class="project-category">{{project.category}}</p>
+        </a>
+      </li>
+    </ul>
+  </section>
+</article>

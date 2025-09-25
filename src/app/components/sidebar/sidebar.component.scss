@@ -1,0 +1,150 @@
+/* Sidebar component specific styles */
+
+.sidebar {
+  margin-bottom: 15px;
+  max-height: 112px;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+}
+
+.sidebar.active { 
+  max-height: 405px; 
+}
+
+.sidebar-info {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+}
+
+.avatar-box {
+  border-radius: 10px;
+}
+
+.info-content .name {
+  color: hsl(0, 0%, 98%);
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: -0.25px;
+  margin-bottom: 10px;
+}
+
+.info-content .title {
+  color: hsl(0, 0%, 100%);
+  background: hsl(240, 1%, 17%);
+  font-size: 11px;
+  font-weight: 300;
+  width: max-content;
+  padding: 3px 12px;
+  border-radius: 8px;
+}
+
+.info_more-btn {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  border-radius: 0 15px;
+  font-size: 13px;
+  color: hsl(45, 100%, 72%);
+  padding: 10px;
+  transition: 0.25s ease;
+  z-index: 1;
+}
+
+.info_more-btn span { 
+  display: none; 
+}
+
+.sidebar-info_more {
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s ease-in-out;
+}
+
+.sidebar.active .sidebar-info_more {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Responsive styles */
+@media (min-width: 580px) {
+  .sidebar {
+    max-height: 180px;
+    margin-bottom: 30px;
+  }
+
+  .sidebar.active { 
+    max-height: 584px; 
+  }
+
+  .sidebar-info { 
+    gap: 25px; 
+  }
+
+  .avatar-box { 
+    border-radius: 30px; 
+  }
+
+  .avatar-box img { 
+    width: 120px; 
+  }
+
+  .info-content .name { 
+    margin-bottom: 15px; 
+  }
+
+  .info-content .title { 
+    padding: 5px 18px; 
+  }
+
+  .info_more-btn {
+    top: -30px;
+    right: -30px;
+    padding: 10px 15px;
+  }
+
+  .info_more-btn span {
+    display: block;
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1250px) {
+  .sidebar {
+    position: sticky;
+    top: 60px;
+    max-height: max-content;
+    height: 100%;
+    margin-bottom: 0;
+    padding-top: 60px;
+    z-index: 1;
+  }
+
+  .sidebar-info { 
+    flex-direction: column; 
+  }
+
+  .avatar-box img { 
+    width: 150px; 
+  }
+
+  .info-content .name {
+    white-space: nowrap;
+    text-align: center;
+  }
+
+  .info-content .title { 
+    margin: auto; 
+  }
+
+  .info_more-btn { 
+    display: none; 
+  }
+
+  .sidebar-info_more {
+    opacity: 1;
+    visibility: visible;
+  }
+}

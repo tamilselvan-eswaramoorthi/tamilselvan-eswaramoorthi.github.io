@@ -1,0 +1,48 @@
+<article class="about active" data-page="about">
+  <header>
+    <h2 class="h2 article-title">About me</h2>
+  </header>
+
+  <section class="about-text">
+    <p>
+      I am an AI enthusiast with close to 6 year in the field with a passion for innovation in intelligent solutions. 
+      My expertise lies in the realms of machine learning, computer vision, and natural language processing, 
+      where I leverage a robust skill set in Python and MLOps to create sustainable and scalable AI products and services.
+    </p>
+
+    <p>
+      I enjoy transforming abstract ideas into tangible results, ensuring that the solutions I develop are not only effective 
+      but also efficient and practical for real-world applications.
+
+      My ultimate goal is to contribute to advancements that enhance the quality of life and drive progress in various fields, 
+      from healthcare to agriculture to industrial applications.
+    </p>
+  </section>
+
+  <section class="service">
+    <h3 class="h3 service-title">What i'm good at</h3>
+
+    <ul class="service-list">
+      <li class="service-item" *ngFor="let service of services">
+        <div class="service-icon-box">
+          <img [src]="service.icon" [alt]="service.title + ' icon'" width="40">
+        </div>
+
+        <div class="service-content-box">
+          <h4 class="h4 service-item-title">{{service.title}}</h4>
+          <p class="service-item-text">{{service.description}}</p>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- testimonials modal -->
+  <div class="modal-container" data-modal-container>
+    <div class="overlay" data-overlay></div>
+    <section class="testimonials-modal">
+      <button class="modal-close-btn" data-modal-close-btn>
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+    </section>
+  </div>
+</article>

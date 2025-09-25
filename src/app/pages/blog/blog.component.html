@@ -1,0 +1,22 @@
+<article class="blog active" data-page="blog">
+  <header>
+    <h2 class="h2 article-title">Blog</h2>
+  </header>
+
+  <section class="blog-posts">
+    <ul class="blog-posts-list">
+      <li class="blog-post-item" *ngFor="let post of blogPosts">
+        <a [href]="post.link" target="_blank" rel="noopener">
+          <figure class="blog-banner-box">
+            <img [src]="post.image" [alt]="post.title" loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+            <h3 class="h3 blog-item-title">{{post.title}}</h3>
+            <p class="blog-text">{{post.description}}</p>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </section>
+</article>
