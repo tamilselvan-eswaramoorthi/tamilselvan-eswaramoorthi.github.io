@@ -18,6 +18,11 @@
   <section class="contact-form">
     <h3 class="h3 form-title">Contact Form</h3>
 
+    <!-- Status Message -->
+    <div class="status-message" *ngIf="submitMessage" [ngClass]="submitStatus">
+      {{ submitMessage }}
+    </div>
+
     <form class="form" (ngSubmit)="onSubmit()" #contactFormRef="ngForm" data-form>
       <div class="input-wrapper">
         <input 
@@ -51,10 +56,11 @@
       <button 
         class="form-btn" 
         type="submit" 
-        [disabled]="!isFormValid()"
+        [disabled]="!isFormValid() || isSubmitting"
         data-form-btn>
-        <ion-icon name="paper-plane"></ion-icon>
-        <span>Send Message</span>
+        <ion-icon *ngIf="!isSubmitting" name="paper-plane"></ion-icon>
+        <ion-icon *ngIf="isSubmitting" name="hourglass-outline"></ion-icon>
+        <span>{{ isSubmitting ? 'Sending...' : 'Send Message' }}</span>
       </button>
     </form>
   </section>
