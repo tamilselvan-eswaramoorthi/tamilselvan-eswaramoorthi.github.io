@@ -5,8 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build:prod": "ng build --configuration production --base-href /tamilselvan-eswaramoorthi.github.io/",
-    "deploy": "ng build --configuration production --base-href /tamilselvan-eswaramoorthi.github.io/ && npx angular-cli-ghpages --dir=dist/portfolio",
+    "build:prod": "ng build --configuration production --base-href /",
+    "deploy": "ng build --configuration production --base-href / && npx angular-cli-ghpages --dir=dist/portfolio/browser",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
